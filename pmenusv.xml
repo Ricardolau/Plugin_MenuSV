@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+        <name>PLG_PMENUSV</name>
+        <author>Soluciones Vigo</author>
+        <creationDate>Marzo 2017</creationDate>
+        <copyright>Copyright (C) 2017 SolucionesVigo.</copyright>
+        <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+        <authorEmail>info@solucionesvigo.es</authorEmail>
+        <authorUrl>http://ayuda.svigo.net</authorUrl>
+        <version>1.0.0</version>
+        <description>PLG_PMENUSV_XML_DESCRIPTION</description>
+        <scriptfile>script.php</scriptfile>
+        <files folder="plugins/system/pmenusv">
+                <file plugin="pmenusv">pmenusv.php</file>
+                <folder>params</folder>
+                <folder>language</folder>
+                <filename>script.php</filename>
+        </files>
+        
+
+</extension>

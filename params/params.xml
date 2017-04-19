@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+        <fields name="params" addfieldpath="/plugins/system/pmenusv">
+                <fieldset name="t-pmenusv" label="PLG_PMENUSV_LABEL">
+                        <field name="spacer"
+                               type="spacer"
+                               default=""
+                               label="PLG_PMENUSV_SUBTITLE_DESC"
+                        />
+                        <field name="pmenusv_maxi"
+                               type="radio"
+                               class="btn-group"
+                               default="0"
+                               label="PLG_PMENUSV_MAXI_LABEL"
+                               description="PLG_PMENUSV_MAXI_DESC">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                        </field>
+                        
+                </fieldset>
+        </fields>
+
+</form>
